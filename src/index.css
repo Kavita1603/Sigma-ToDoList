@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 0.10rem;
+  transition: all 0.5s linear;
+}
+
+.edit-btn{
+  color: green;
+}
+
+.delete-btn{
+  color: red;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.section-center {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 10px black;
+  transition: all 0.5s linear;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.table, th, td{
+  border: 1px, solid, black;
+}
+
+.form{
+  text-align: center;
+}
